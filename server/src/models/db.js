@@ -1,9 +1,9 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
-const connection = mysql.createConnection({
+const connection = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'Admin-12345',
+    password: 'adminkvn-12345',
     database: 'usuarios'
 });
 
